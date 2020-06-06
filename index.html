@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<title>2%가 부족할때</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light  nav-distance">
+		<a class="navbar-brand" href="#">공간기반 문화음악 제공 서비스</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">20171508 이혜은
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="section1">
+		<div class="peach-cover">
+			<img src="img/peach.png" </div>
+	</section>
+	<section class="section2">
+		<h1 class="title">2% 부족할때</h1>
+		<h2 class="mb-5 subtitle">장소에 걸맞는 음악을 추천해드립니다! </h2>
+	</section>
+	<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<div class="container file-upload">
+		<div class="image-upload-wrap" style="margin: 0 auto;">
+			<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+			<div class="drag-text">
+				<img src="img/upload.svg" class="mt-5 pt-5 upload" style="width: 25%;">
+				<h3 class="mb-5 pb-5 pt-4 upload-text">장소 사진을 올려놓거나 눌러서 업로드하세요!</h3>
+			</div>
+		</div>
+		<div class="file-upload-content">
+			<img class="file-upload-image" id="space-image" src="#" alt="your image" />
+			<p class="result-message"></p>
+			<h4 class="mt-2 mb-5 message">이 장소에 어울리는 노래를 들어보시겠습니까?!!
+			</h4>
+			<div id="label-container" style="display:none"></div>
+
+			<div class="cafe">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=GFfzZmsXRtQ" class="youtube-link" target="_blank" title="재즈음악">카페에서 듣기 좋은 재즈음악</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=ROSLuZTWCRY" class="youtube-link" target="_blank" title="K-POP">카페에서 듣기 K-POP</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=sht8CFvk0U4" class="youtube-link" target="_blank" title="어쿠스틱 팝송">커피와 어울리는 어쿠스틱 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="workspace">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=GdO5z0PIy3I" class="youtube-link" target="_blank" title="신나는 팝송">일할 때 듣기 좋은 신나는 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=mnsgRlp_rvI" class="youtube-link" target="_blank" title="노동요 컴온!">노동요 2020</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=MC_rsKoxeko" class="youtube-link" target="_blank" title="짜증날 때">(상사 때문에?)짜증날 때 듣는 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="bookstore">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=MaWzq90Acrc" class="youtube-link" target="_blank" title="피아노 음악">독서의 질을 높이는 피아노 음악</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=jbKq3BTjVlw" class="youtube-link" target="_blank" title="어쿠스틱 기타">책 읽을 때 어쿠스틱 기타</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=5gYzXXL6jU8" class="youtube-link" target="_blank" title="클래식">독서를 위한 클래식 모음</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="subway">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=N5ESVoCD5KM" class="youtube-link" target="_blank" title="잔잔한 팝송">지하철에서 앉아 듣는 잔잔한 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=BkkD6qsPAsI" class="youtube-link" target="_blank" title="멍하니 듣기 좋은 팝송">집 가는 길에 멍하니 듣기 좋은 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=tPTnvI8qXn4" class="youtube-link" target="_blank" title="지진 하루 위로와 휴식">지친 하루 위로와 휴식을 주는 잔잔한 음악</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="bus">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=owzBhkA6J0Y" class="youtube-link" target="_blank" title="한국 힙합">차에서 듣기 좋은 신나는 한국 힙합</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=3nd640QULCw" class="youtube-link" target="_blank" title="퇴근길 노래">지친 하루를 달래주는 퇴근길 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=deO2wHGIbUU" class="youtube-link" target="_blank" title="감성 충만 팝송">퇴근 후 감성 충만 팝송 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="mart">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=PUyM4UA3X2M&list=PLhEiR7GQs1nEeb321ZGeTmUjOE29XdlGD" class="youtube-link" target="_blank" title="마트노래">마트 노래 모음</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=AJ5aoJ_HQAM" class="youtube-link" target="_blank" title="감성 팝송">새벽에 나가서 꼭 들어야 하는 감성 팝송모음</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=22ScFwtKbsg" class="youtube-link" target="_blank" title="소비소비소비송">착한 소비송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="sea">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=scQq9_bxI4o" class="youtube-link" target="_blank" title="팝송">밤바다에서 별을 바라보며 듣기 좋은 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=zcYdQBU4UNo" class="youtube-link" target="_blank" title="서정적인 노래">해변가에서 듣기 좋은 서정적인 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=kxINIpptOS8" class="youtube-link" target="_blank" title="청량 시원한 노래">바다같이 청량하고 시원한 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="mountain">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=s3DlSRSmO8U" class="youtube-link" target="_blank" title="뉴에이지 연주곡">한적한 숲 속 소리와 뉴에이지 연주곡</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=u1kHo3nnWP4" class="youtube-link" target="_blank" title="산책을 위한 팝송">기분 좋은 산책을 위한 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=24Kq0eRSFEc" class="youtube-link" target="_blank" title="피아노 연주곡">아늑한 숲 속에 누워 듣는 피아노 연주곡</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="valley">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=2VwwRT56sRE" class="youtube-link" target="_blank" title="트로피컬 하우스 K-POP">청량감 터지는 트로피컬 하우스 스타일 K-POP</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=E22hpXzErdk" class="youtube-link" target="_blank" title="여행 유발 리스트">휴가때 들어야 할 여행 유발 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=jwPH69NoBP8" class="youtube-link" target="_blank" title="트로피컬 EDM">영혼까지 신나는 트로피컬 EDM 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="spring">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=dlQWNHpsjJ4" class="youtube-link" target="_blank" title="봄바람 노래">봄바람과 함께 듣기 좋은 노래들</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=VgbPEtRv0Lo" class="youtube-link" target="_blank" title="설레는 팝송">봄날 설레는 노래 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=Ov5JSV3_npw" class="youtube-link" target="_blank" title="달달한 노래">따스한 봄날 듣기 좋은 달달한 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="fall">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=96aUyEoqp0w" class="youtube-link" target="_blank" title="산책하며 듣기 좋은 노래">가을밤 산책하며 듣기 좋은 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=iTb3Ma9o5tQ" class="youtube-link" target="_blank" title="단풍길 듣기 좋은 노래">단풍길 가을에 듣기 좋은 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=IUW7HWMu3tE" class="youtube-link" target="_blank" title="센치한 마음을 달래줄 노래">쓸쓸한 계절 센치한 마음을 달래줄 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="winter">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=3FjoaE-s0RY" class="youtube-link" target="_blank" title="연말 캐롤 음악">연말 분위기를 위한 캐롤 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=AZeaea5tUcM" class="youtube-link" target="_blank" title="감성 발라드">겨울에 듣기 좋은 감성 발라드</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=ysgYIWan_vI" class="youtube-link" target="_blank" title="감성 힙합">겨울에 듣기 좋은 감성 힙합</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="sunset">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=2HhvS8A0RFQ" class="youtube-link" target="_blank" title="팝송">머리속이 복잡할 때, 아무 생각 없이 듣기 좋은 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=bNF6BkJYUtw" class="youtube-link" target="_blank" title="감성 음악">노을 보며 듣기 좋은 감성 음악</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=vPs_TBGOA3E" class="youtube-link" target="_blank" title="외로울 때 듣기 좋은 노래">외로울 때 듣기 좋은 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="river">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=inQr-cULHkc" class="youtube-link" target="_blank" title="한강 바이브!">날씨 좋은 밤 한강 바이브!</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=bxVrnuljKzg" class="youtube-link" target="_blank" title="한가할 때 듣기 좋은 노래">한가할 때 한강에서 듣기 좋은 노래</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=T1yob1Bc6z4" class="youtube-link" target="_blank" title="그루브한 팝송">한강에서 듣기 좋은 그루브한 팝송</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="night">
+				<img src="img/music1.png" alt="" class="mt-5 music1-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=_qmcg4vqmVg" class="youtube-link" target="_blank" title="감성 발라드">밤에 듣기 좋은 감성 발라드</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music2.png" alt="" class="mt-5 music2-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=KQoXGobCjgI" class="youtube-link" target="_blank" title="조용한 밤 팝송">조용한 밤 팝송 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+				<img src="img/music3.png" alt="" class="mt-5 music3-icon" div style="width : 80%;">
+				<a href="https://www.youtube.com/watch?v=17ufM7Cnjyc" class="youtube-link" target="_blank" title="술 한잔 하고싶을 때">술 한잔 하고싶을 때 듣기 좋은 리스트</a>
+				<img src="img/youtube.png" alt="" class="mt-5 youtube-icon">
+			</div>
+
+			<div class="mt-5 image-title-wrap">
+				<button type="button" onclick="removeUpload()" class="remove-image">Remove
+				</button>
+			</div>
+		</div>
+	</div>
+	<div id="webcam-container"></div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+	<script>
+		$('.cafe').hide();
+		$('.workspace').hide();
+		$('.bookstore').hide();
+		$('.subway').hide();
+		$('.bus').hide();
+		$('.mart').hide();
+		$('.sea').hide();
+		$('.mountain').hide();
+		$('.valley').hide();
+		$('.spring').hide();
+		$('.fall').hide();
+		$('.winter').hide();
+		$('.sunset').hide();
+		$('.river').hide();
+		$('.night').hide();
+
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+					$('.image-upload-wrap').hide();
+					$('.file-upload-image').attr('src', e.target.result);
+					$('.file-upload-content').show();
+					$('.image-title').html(input.files[0].name);
+				};
+				reader.readAsDataURL(input.files[0]);
+				init().then(function() {
+					console.log("hello");
+					predict();
+				});
+			} else {
+				removeUpload();
+			}
+		}
+
+		function removeUpload() {
+			$('.file-upload-input').replaceWith($('.file-upload-input').clone());
+			$('.file-upload-content').hide();
+			$('.image-upload-wrap').show();
+		}
+		$('.image-upload-wrap').bind('dragover', function() {
+			$('.image-upload-wrap').addClass('image-dropping');
+		});
+		$('.image-upload-wrap').bind('dragleave', function() {
+			$('.image-upload-wrap').removeClass('image-dropping');
+		});
+	</script>
+	<script type="text/javascript">
+		// More API functions here:
+		// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+		// the link to your model provided by Teachable Machine export panel
+		const URL = "https://teachablemachine.withgoogle.com/models/ZMhJaO60v/";
+		let model, webcam, labelContainer, maxPredictions;
+		// Load the image model and setup the webcam
+		async function init() {
+			const modelURL = URL + "model.json";
+			const metadataURL = URL + "metadata.json";
+			// load the model and metadata
+			// Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+			// or files from your local hard drive
+			// Note: the pose library adds "tmImage" object to your window (window.tmImage)
+			model = await tmImage.load(modelURL, metadataURL);
+			maxPredictions = model.getTotalClasses();
+			labelContainer = document.getElementById("label-container");
+			for (let i = 0; i < maxPredictions; i++) { // and class labels
+				labelContainer.appendChild(document.createElement("div"));
+			}
+		}
+		// run the webcam image through the image model
+		async function predict() {
+			// predict can take in an image, video or canvas html element
+			var image = document.getElementById("space-image")
+			const prediction = await model.predict(image, false);
+			prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+			console.log(prediction[0].className);
+			var resultMesseage;
+			var music1url;
+			var musicMesseage;
+			switch (prediction[0].className) {
+				case "밤,야경(야외)":
+					resultMesseage = "이 사진은 밤,야경!!"
+					$('.night').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					break;
+				case "한강(야외)":
+					resultMesseage = "이 사진은 한강!!"
+					$('.river').show();
+					$('.night').hide();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					break;
+				case "노을(야외)":
+					resultMesseage = "이 사진은 노을!!"
+					$('.sunset').show();
+					$('.river').hide();
+					$('.night').hide();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					break;
+				case "바다(야외)":
+					resultMesseage = "이 사진은 바다!!"
+					$('.sea').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "가을(야외)":
+					resultMesseage = "이 사진은 가을!!"
+					$('.fall').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "계곡(야외)":
+					resultMesseage = "이 사진은 계곡!!"
+					$('.valley').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "봄(야외)":
+					resultMesseage = "이 사진은 봄!!"
+					$('.spring').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "산,숲(야외)":
+					resultMesseage = "이 사진은 산,숲!!"
+					$('.mountain').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "겨울(야외)":
+					resultMesseage = "이 사진은 겨울!!"
+					$('.winter').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "마트(실내)":
+					resultMesseage = "이 사진은 마트!!"
+					$('.mart').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "버스(실내)":
+					resultMesseage = "이 사진은 버스!!"
+					$('.bus').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "지하철(실내)":
+					resultMesseage = "이 사진은 지하철!!"
+					$('.subway').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "카페(실내)":
+					resultMesseage = "이 사진은 카페!!"
+					$('.cafe').show();
+					$('.workspace').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "서점(실내)":
+					resultMesseage = "이 사진은 서점!!"
+					$('.bookstore').show();
+					$('.cafe').hide();
+					$('.workspace').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				case "사무실(실내)":
+					resultMesseage = "이 사진은 사무실!!"
+					$('.workspace').show();
+					$('.cafe').hide();
+					$('.bookstore').hide();
+					$('.subway').hide();
+					$('.bus').hide();
+					$('.mart').hide();
+					$('.sea').hide();
+					$('.mountain').hide();
+					$('.valley').hide();
+					$('.spring').hide();
+					$('.fall').hide();
+					$('.winter').hide();
+					$('.sunset').hide();
+					$('.river').hide();
+					$('.night').hide();
+					break;
+				default:
+					resultMesseage = "알수없음"
+			}
+			$('.result-message').html(resultMesseage)
+			for (let i = 0; i < maxPredictions; i++) {
+				const classPrediction =
+					prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+				labelContainer.childNodes[i].innerHTML = classPrediction;
+			}
+		}
+	</script>
+
+</body>
+
+</html>
